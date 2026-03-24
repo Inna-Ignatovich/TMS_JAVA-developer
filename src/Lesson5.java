@@ -37,7 +37,7 @@ public class Lesson5 {
 
 
         int sum = 0;
-        for (int i = 0; i < rows; i++) {
+        for (8int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 sum += DoubleMas[i][j];
             }
