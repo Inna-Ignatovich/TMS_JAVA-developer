@@ -93,7 +93,7 @@ public class Lesson11 {
             for (char ch : strings[0].toCharArray()) {
                 doubled.append(ch).append(ch);
             }
-            System.out.println(" Задвоение первой строки:  " + doubled.toString());
+            System.out.println(" Задвоение первой строки:  " + doubled);
 
     }
 }
