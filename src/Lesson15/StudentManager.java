@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class StudentManager {
 
-    private ArrayList<Student> students;
+    ArrayList<Student> students;
 
     public StudentManager(ArrayList<Student> students) {
         this.students = students;
@@ -32,9 +32,6 @@ public class StudentManager {
         }
     }
 
-    public void addStudent(Student student) {
-        students.add(student);
-    }
 
     public void printStudents() {
         for(Student s : students) {
