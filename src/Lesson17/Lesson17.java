@@ -33,7 +33,7 @@ public class Lesson17 {
 //        Задача 5:
 //        Используя Supplier написать метод, который будет возвращать введенную с консоли
 //        строку задом наперед.
-        convertToDollarsViaSupplier();
+        convertViaSupplier();
     }
 
     public static void calculateJubilee() {
@@ -72,7 +72,7 @@ public class Lesson17 {
         convert.accept(new Scanner(System.in).nextLine());
     }
 
-    public static void convertToDollarsViaSupplier() {
+    public static void convertViaSupplier() {
         Supplier<String> reverseInput = () -> {
             System.out.println("Введите строку:");
             String input = new Scanner(System.in).nextLine();
